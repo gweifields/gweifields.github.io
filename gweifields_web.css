@@ -1,4 +1,4 @@
-@media (orientation: landscape) {
+@media only screen and (min-width: 601px) {
     
 
 
@@ -99,15 +99,14 @@ gweifeilds-cont a {
     margin-bottom: 15px;
 }}
 
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 600px) {
 
     
     body {
         font-family: 'Helvetica', 'Arial', sans-serif;
         color: black;
-        font-size: 10pt;
+        font-size: 10px;
         width: 90vw;
-        
         margin-left: auto;
         margin-right: auto;
     }
@@ -116,7 +115,7 @@ gweifeilds-cont a {
         display: flex; 
         align-items: baseline;
         margin-top: auto;
-        margin-bottom: -35px;
+        margin-bottom: -25px;
         margin-left: auto;
         margin-right: auto;
         width: 85vw;
@@ -183,8 +182,8 @@ gweifeilds-cont a {
         margin-left: 7px;
     }
     #display-cont iframe{
-        width: 550px;
-        height: 550px;
+        width: 80vw;
+        height: 80vw;
         border: none;
     }
     #display-cont h3{
